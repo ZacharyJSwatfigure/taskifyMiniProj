@@ -38,3 +38,12 @@
 
 }
 
+.input-submit-button:hover {
+  background-color: #4b8dd3
+}
+
+.input-submit-button:active {
+  transform: scale(0.8);
+  box-shadow: 0 0 5px black;
+}
+
