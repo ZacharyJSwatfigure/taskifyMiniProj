@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import InputFeild from './inputFeild';
-import './App.css';
+import './styles/App.css';
 import  {Todo}  from "./model"
 import TodoList from "./todoList";
 
