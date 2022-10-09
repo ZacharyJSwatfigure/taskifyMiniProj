@@ -22,8 +22,10 @@ const App: React.FC = () => {
     <div className="App">
       <div className="heading">hello world</div>
       <div><InputFeild todo={todo} setTodo={setTodo} handleAdd={handleAdd} /></div>
-
-      <TodoList todos={todos} setTodos={setTodos}/>
+      <div className = "todolist-centered ">
+        <TodoList todos={todos} setTodos={setTodos}/>
+      </div>
+      
     </div>
   );
 }
